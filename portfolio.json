@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "title": "Mayaya Dental",
+      "description": "A business dental website showcasing Dr Sisipho Mayaya's dental studio.",
+      "technologies": ["React", "CSS", "JSX "],
+      "image url ": "SipheleleMaphumulo.github.io/MyPortfolio/src/assets/mayayadetal.jpeg",
+      "url": "https://www.mayayadental.com"
+    },
+   
+  ]
+}
