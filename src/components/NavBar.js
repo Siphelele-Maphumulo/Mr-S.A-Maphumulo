@@ -74,7 +74,7 @@ const NavBar = () => {
         <h1>
           <a
             className="name-logo"
-            href="https://siphelele-maphumulo.github.io/Portfolio/"
+            href="https://siphelelemaphumulo.netlify.app/"
             rel="noopener noreferrer"
           >
             Siphelele....change portfolio
