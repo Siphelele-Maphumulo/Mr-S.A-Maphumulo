@@ -6,15 +6,15 @@ const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
-  const words = ['CODE', 'CREATE', 'INNOVATE'];
+  const words = ['PLANNING', 'ANALYSIS', 'DESIGN', 'IMPLEMENTATION', 'TESTING', 'MAINTENANCE'];
   
   const interests = [
     { text: 'Frontend Development', icon: '⚛️' },
     { text: 'React & Next.js', icon: '🚀' },
-    { text: 'Angular & Ionic', icon: '📱' },
+    { text: 'Mobile Development', icon: '📱' },
     { text: 'UI/UX Design', icon: '🎨' },
     { text: 'Backend Development', icon: '⚙️' },
-    { text: 'WordPress Development', icon: '🔧' },
+    { text: 'Tehnical Support', icon: '🔧' },
     { text: 'Innovative Startups', icon: '💡' },
     { text: 'New Opportunities', icon: '🌟' }
   ];

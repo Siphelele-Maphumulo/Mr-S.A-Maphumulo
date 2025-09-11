@@ -79,7 +79,7 @@ const Hero = () => {
 
             <div className="hero-btns">
               <a
-                href="https://drive.google.com/file/d/112yXQ2vhu03cTZfuKseyZkQ8KGgnRzM1/view?usp=sharing"
+                href="https://drive.google.com/file/d/1EwxM1iyRPFEMlQyLrhj4dM14f1rgbe6k/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="btn-primary"

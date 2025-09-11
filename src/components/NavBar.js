@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './NavBar.css';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -16,11 +16,7 @@ const NavBar = () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
       // Simple scroll detection
-      if (scrollTop > 50) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
+      setScroll(scrollTop > 50);
 
       // Active section detection
       const sections = ['home', 'about', 'projects', 'contact'];
@@ -32,7 +28,7 @@ const NavBar = () => {
         }
         return false;
       });
-      
+
       if (current) {
         setActiveSection(current);
       }
@@ -61,30 +57,30 @@ const NavBar = () => {
   };
 
   const navItems = [
-    { name: 'Home', to: 'home' },
-    { name: 'About', to: 'about' },
-    { name: 'Projects', to: 'projects' },
-    { name: 'Contact', to: 'contact' }
+    { name: 'Home', to: 'home', type: 'scroll' },
+    { name: 'About', to: 'about', type: 'scroll' },
+    { name: 'Projects', to: 'projects', type: 'scroll' },
+    { name: 'Contact', to: 'contact', type: 'scroll' },
+    { name: 'Gallery', href: 'https://maphumulo-gallery.vercel.app/', type: 'link' },
   ];
 
   return (
     <>
       <nav className={`navbar ${open ? 'nav-open' : ''} ${scroll ? 'scrolled' : ''}`}>
         <div className="tophead">
-        <h1>
-          <a
-            className="name-logo"
-            href="https://siphelelemaphumulo.netlify.app/"
-            rel="noopener noreferrer"
-          >
-            Siphelele....change portfolio
-          </a>
-          <span className="blink" />
-        </h1>
+          <h1>
+            <a
+              className="name-logo"
+              href="https://siphelelemaphumulo.netlify.app/"
+              rel="noopener noreferrer"
+            >
+              Siphelele Portfolio
+            </a>
+            <span className="blink" />
+          </h1>
 
-
-          <div 
-            className={`menu-btn ${open ? 'opened-btn' : ''}`} 
+          <div
+            className={`menu-btn ${open ? 'opened-btn' : ''}`}
             onClick={toggleMenu}
           >
             <span></span>
@@ -93,27 +89,38 @@ const NavBar = () => {
 
         <ul className={`menu ${open ? 'open' : ''}`}>
           {navItems.map((item) => (
-            <li key={item.to}>
-              <Link
-                spy
-                smooth
-                offset={-80}
-                duration={500}
-                onClick={handleMenuItemClick}
-                to={item.to}
-                className={activeSection === item.to ? 'active' : ''}
-              >
-                {item.name}
-              </Link>
+            <li key={item.name}>
+              {item.type === 'scroll' ? (
+                <ScrollLink
+                  spy
+                  smooth
+                  offset={-80}
+                  duration={500}
+                  onClick={handleMenuItemClick}
+                  to={item.to}
+                  className={activeSection === item.to ? 'active' : ''}
+                >
+                  {item.name}
+                </ScrollLink>
+              ) : (
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleMenuItemClick}
+                >
+                  {item.name}
+                </a>
+              )}
             </li>
           ))}
         </ul>
       </nav>
 
       <div className={`scroll-to-top ${scroll ? 'scroll-true' : ''}`}>
-        <Link spy smooth offset={-80} duration={800} to="home">
+        <ScrollLink spy smooth offset={-80} duration={800} to="home">
           <i className="fa-solid fa-arrow-up" />
-        </Link>
+        </ScrollLink>
       </div>
     </>
   );

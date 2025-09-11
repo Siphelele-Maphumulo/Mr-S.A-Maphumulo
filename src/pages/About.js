@@ -139,7 +139,6 @@ const About = () => {
       { name: 'Git', img: GitLogo },
       { name: 'GitHub', img: GitHublogo },
       { name: 'GitLab', img: GitLab },                  // alternative Git platform
-      { name: 'Bitbucket', img: Bitbucket },           // Git platform for teams
       { name: 'Chrome Dev Tools', img: CDT },
       { name: 'VS Code', img: VSCode },
       { name: 'WebPack', img: WebPack },
@@ -155,13 +154,11 @@ const About = () => {
       { name: 'Firebase', img: Firebase },
       { name: 'SQL Management Studio', img: mssms },
       { name: 'PHP MySQL', img: php },
-      { name: 'MongoDB', img: MongoDB },
       { name: 'SQLite', img: SQLite },
     ],
     Design: [
       { name: 'Canva', img: Canva },
       { name: 'Figma', img: Figma },
-      { name: 'AdobeXD', img: AdobeXD },
       { name: 'Adobe Illustrator', img: Illustrator },
       { name: 'Adobe Photoshop', img: Photoshop },
     ],
@@ -227,10 +224,36 @@ const About = () => {
           <div className="about-me">
             <h2 className="title">ABOUT ME</h2>
             <p className="about-para">
-             I bring a balance of technical expertise and skills, combining hands-on software development with technical experience. I’ve contributed to projects dealing with management systems to business applications, ensuring systems are secure, reliable, and easy to use. As a facilitator, I enjoy breaking down complex concepts into simple steps, helping both teams and individuals succeed. My focus is on creating solutions that last, while empowering others to grow alongside technology.
-
+             I’m a developer who builds clean, responsive, and user-friendly web interfaces. I combine strong fundamentals with modern frameworks, styling libraries like Tailwind, Bootstrap, and SASS, and solid HTML/CSS skills to deliver fast, accessible, and scalable applications. Whether I’m working with jQuery for legacy support or integrating C# backends, I focus on creating best user experiences that work across devices and browsers. 
+             I always aiming to turn complex ideas into simple, intuitive designs. I enjoy collaborating, mentoring and improving both the products and processes.
             </p>
-
+            <br></br><br></br>
+            <p className="about-para">
+             I also builds secure, scalable, and efficient back-end systems. I work with technologies like Node.js, Express.js, Python, Django, and C# .NET to create powerful APIs and server-side logic. I use databases like PostgreSQL, MySQL, and MongoDB to manage data reliably, and Docker to streamline deployment and development environments. Whether I'm building RESTful services, handling authentication, or optimizing queries, 
+             I focus on performance, security, and clean architecture.</p>
+            <br></br><br></br><br></br>
+            <p className="about-para">
+             I've built smooth, high-performance mobile apps across platforms. I work with various tools to create cross-platform experiences. I develop and test using Android Studio and Xcode, making sure apps run well on different devices. Whether I’m building user interfaces, connecting to APIs, or handling offline functionality, 
+             I focus on speed, usability, and clean design. I enjoy crafting mobile solutions that feel natural to users and help businesses reach more people through reliable, modern apps.</p>
+            <br></br><br></br>
+            <p className="about-para">
+             I work confidently with a wide range of development tools that support clean code, smooth collaboration, and efficient delivery. I use Git platforms like GitHub, GitLab, and Bitbucket to manage version control and team workflows. My daily toolkit includes VS Code, Chrome Dev Tools, WebPack, Postman, npm, Yarn, and Docker 
+             to streamline development and testing. I manage tasks and sprints using Jira, and I’ve built and maintained WordPress sites for clients and internal projects.</p>
+            <br></br><br></br><br></br>
+            <p className="about-para">
+             For data, I work with Firebase, MongoDB, MySQL, PHP MySQL, SQLite, and SQL Management Studio to store, query, and secure information across different platforms. I also bring design skills using Canva, Figma, Adobe XD, Illustrator, and Photoshop to create clean UI mockups and assets that match user needs.</p>
+            <br></br><br></br><br></br>
+            <p className="about-para">
+             I also bring strong design and communication skills to every project. I use tools like Figma, Adobe XD, Canva, Illustrator, and Photoshop to create clean, modern interfaces and visual assets that match user needs and brand goals. Whether I’m wireframing a layout or polishing final graphics, I focus on clarity, consistency, and user experience.</p>
+            <br></br><br></br><br></br>
+            <p className="about-para">
+             On the communication side, I collaborate effectively with teams and clients using Microsoft Teams, Slack, Zoom, Skype, and Google Meet. I’m comfortable leading demos, sharing updates, and working across time zones to keep projects moving smoothly. Good design and clear communication go hand-in-hand — and I use both to build better products, faster.</p>
+            <br></br>
+            <br></br><br></br><br></br>
+            <p className="about-para">
+             I bring a strong set of soft skills that help teams work better and deliver faster. I'm experienced in remote pair-programming, mentoring, and leading collaborative projects with clear communication and emotional intelligence. I apply Agile and Scrum practices to stay organised, manage time effectively, and make smart decisions under pressure. 
+             I enjoy solving problems creatively, thinking critically, and adapting to new challenges.</p>
+            <br></br>
           </div>
 
           <div className="skills-container">
