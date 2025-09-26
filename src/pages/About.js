@@ -223,10 +223,14 @@ const About = () => {
         <div className="about-container">
           <div className="about-me">
             <h2 className="title">ABOUT ME</h2>
-            <p className="about-para">
-             I’m a developer who builds clean, responsive, and user-friendly web interfaces. I combine strong fundamentals with modern frameworks, styling libraries like Tailwind, Bootstrap, and SASS, and solid HTML/CSS skills to deliver fast, accessible, and scalable applications. Whether I’m working with jQuery for legacy support or integrating C# backends, I focus on creating best user experiences that work across devices and browsers. 
-             I always aiming to turn complex ideas into simple, intuitive designs. I enjoy collaborating, mentoring and improving both the products and processes.
-            </p>
+          <p className="about-para">
+            I’m a developer who builds clean, responsive, and user-friendly web interfaces while also applying manual testing to ensure quality. 
+            I combine strong fundamentals with modern frameworks, styling libraries, and solid HTML/CSS skills 
+            to deliver fast, accessible, and scalable applications. Along with development, I create and run test cases, perform regression and 
+            exploratory testing, and report defects to make sure features work as expected. I always focus on creating the best user experiences that work across devices and browsers. I always aim to turn 
+            complex ideas into simple, intuitive designs, and I enjoy collaborating.
+          </p>
+
             <br></br><br></br>
             <p className="about-para">
              I also builds secure, scalable, and efficient back-end systems. I work with technologies like Node.js, Express.js, Python, Django, and C# .NET to create powerful APIs and server-side logic. I use databases like PostgreSQL, MySQL, and MongoDB to manage data reliably, and Docker to streamline deployment and development environments. Whether I'm building RESTful services, handling authentication, or optimizing queries, 
@@ -237,8 +241,12 @@ const About = () => {
              I focus on speed, usability, and clean design. I enjoy crafting mobile solutions that feel natural to users and help businesses reach more people through reliable, modern apps.</p>
             <br></br><br></br>
             <p className="about-para">
-             I work confidently with a wide range of development tools that support clean code, smooth collaboration, and efficient delivery. I use Git platforms like GitHub, GitLab, and Bitbucket to manage version control and team workflows. My daily toolkit includes VS Code, Chrome Dev Tools, WebPack, Postman, npm, Yarn, and Docker 
-             to streamline development and testing. I manage tasks and sprints using Jira, and I’ve built and maintained WordPress sites for clients and internal projects.</p>
+              I work confidently with a wide range of development and testing tools that support clean code, smooth collaboration, and efficient delivery. 
+              I use Git platforms like GitHub, GitLab, and Bitbucket to manage version control and team workflows. My daily toolkit includes VS Code, 
+              Chrome Dev Tools, WebPack, Postman, npm, Yarn, and Docker to streamline development and testing. On the testing side, I create and execute 
+              test cases, perform regression testing, log defects, and use Jira to manage tasks, sprints, and bug tracking. I’ve also built and maintained 
+              WordPress sites for clients and internal projects.
+            </p>
             <br></br><br></br><br></br>
             <p className="about-para">
              For data, I work with Firebase, MongoDB, MySQL, PHP MySQL, SQLite, and SQL Management Studio to store, query, and secure information across different platforms. I also bring design skills using Canva, Figma, Adobe XD, Illustrator, and Photoshop to create clean UI mockups and assets that match user needs.</p>

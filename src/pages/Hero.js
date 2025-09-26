@@ -70,11 +70,16 @@ const Hero = () => {
         <div className="hero-overlay">
           <div className="description">
           <h2 className="title">Hello, I am Siphelele Maphumulo</h2>
-          <h3 className="tagline">Full-Stack Software Developer | Technical Supporter | Technical Facilitator</h3>
+          <h3 className="tagline">Full-Stack Software Developer | Manual Tester | Technical Supporter | Technical Facilitator</h3>
           <p className="paragraph">
-            I am a Software Developer with 3+ years of experience in full-stack development and technical support. I have designed and built scalable 
-            web systems using C#, PHP, Java, and Python, while also creating responsive pages with HTML, CSS, JavaScript, and WordPress. My background includes schema design, SQL query tuning, and database administration. Beyond coding, I provide training and mentorship as a facilitator, helping future developers grow their skills. I enjoy solving real world problems, supporting teams, and delivering software solutions that improve efficiency and create real impact.
+            I am a Software Developer with 3+ years of experience in full-stack development, manual software testing, and technical support. 
+            I have designed and built scalable web systems using C#, PHP, Java, and Python, while also creating responsive pages with HTML, CSS, 
+            JavaScript, and WordPress. My background includes schema design, SQL query tuning, and database administration. Alongside development, 
+            I perform manual testing such as writing and executing test cases, regression testing, and defect reporting using tools like Jira and Bugzilla. 
+            Beyond coding and testing, I provide training and mentorship as a facilitator, helping future developers grow their skills. I enjoy solving 
+            real-world problems, supporting teams, and delivering software solutions that improve efficiency and create real impact.
           </p>
+
 
 
             <div className="hero-btns">
